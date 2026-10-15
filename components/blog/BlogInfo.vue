@@ -12,7 +12,7 @@
     >
       <div class="post-thumb">
         <div class="d-block position-relative overflow-hidden">
-          <nuxt-img :src="item.img" class="img-fluid" alt="item.title" />
+          <img :src="item.img" class="img-fluid" alt="item.title" />
         </div>
       </div>
       <!-- {/* End .thumb */} -->
@@ -43,7 +43,7 @@
     >
       <div class="modal-content">
         <button class="close-modal" data-bs-dismiss="modal" aria-label="Close">
-          <nuxt-img src="/assets/images/cancel.svg" alt="close image" />
+          <img src="/assets/images/cancel.svg" alt="close image" />
         </button>
         <!-- close modal -->
         <div class="modal-body">
@@ -75,7 +75,7 @@
                   </p>
                   <div class="quotebox">
                     <div class="icon">
-                      <nuxt-img
+                      <img
                         src="/assets/images/blog/quote.svg"
                         alt="blog quote"
                       />
