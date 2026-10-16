@@ -14,7 +14,7 @@
             <!-- {/* End .col */} -->
 
             <div class="col-12 d-block d-sm-none">
-              <nuxt-img
+              <img
                 src="/assets/images/hero/img-mobile.jpg"
                 class="img-fluid main-img-mobile"
                 alt="about avatar"

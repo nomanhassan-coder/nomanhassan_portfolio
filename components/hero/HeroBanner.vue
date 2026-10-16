@@ -8,7 +8,7 @@
       class="col-12 col-lg-8 offset-lg-4 home-details text-center text-lg-start"
     >
       <div>
-        <nuxt-img
+        <img
           :src="heroContent.heroMobileImage"
           class="img-fluid main-img-mobile d-sm-block d-lg-none"
           alt="hero man"
@@ -44,7 +44,7 @@
     >
       <div class="modal-content dark">
         <button class="close-modal" data-bs-dismiss="modal" aria-label="Close">
-          <nuxt-img src="/assets/images/cancel.svg" alt="close image" />
+          <img src="/assets/images/cancel.svg" alt="close image" />
         </button>
         <div class="modal-body">
           <div class="box_inner about">
